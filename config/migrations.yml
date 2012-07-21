@@ -1,0 +1,4 @@
+name: Test Migrations
+migrations_namespace: TestMigrations
+table_name: test_migration_versions
+migrations_directory: ./migration-scripts
