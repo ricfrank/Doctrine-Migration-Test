@@ -1,5 +1,5 @@
 English
-=========
+=============
 Usage:
 
 Generate a new migration
@@ -15,7 +15,7 @@ Rollback to previous version(n)
 ./doctrine migration:migrate n
 
 Italian
-==========
+=============
 Semplice repository per provare l'utilizzo di doctrine migration
 
 Comandi:
