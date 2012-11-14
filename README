@@ -1,3 +1,21 @@
+English
+=========
+Usage:
+
+Generate a new migration
+./doctrine migration:generate
+
+Print migration status
+./doctrine migration:status
+
+Migrate to latest version
+./doctrine migration:migrate
+
+Rollback to previous version(n)
+./doctrine migration:migrate n
+
+Italian
+==========
 Semplice repository per provare l'utilizzo di doctrine migration
 
 Comandi:
