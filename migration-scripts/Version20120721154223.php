@@ -15,7 +15,7 @@ class Version20120721154223 extends AbstractMigration
 
     public function down(Schema $schema)
     {
-	$this->_addSql("ALTER TABLE test DROP COLUMN cognome ");
-//	$this->_addSql("DROP TABLE test_new");
+//	$this->_addSql("ALTER TABLE test DROP COLUMN cognome ");
+	$this->_addSql("DROP TABLE test_new");
     }
 }
