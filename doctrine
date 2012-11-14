@@ -1,0 +1,2 @@
+#!/bin/bash
+php bin/doctrine-migrations.phar --db-configuration=config/migration-db.php --configuration=config/migrations.yml "$@"
