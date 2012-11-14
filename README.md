@@ -3,16 +3,16 @@ English
 Usage:
 
 Generate a new migration
-./doctrine migration:generate
+<code>./doctrine migration:generate</code>
 
 Print migration status
-./doctrine migration:status
+<code>./doctrine migration:status</code>
 
 Migrate to latest version
-./doctrine migration:migrate
+<code>./doctrine migration:migrate</code>
 
 Rollback to previous version(n)
-./doctrine migration:migrate n
+<code>./doctrine migration:migrate n</code>
 
 Italian
 =============
@@ -21,19 +21,19 @@ Semplice repository per provare l'utilizzo di doctrine migration
 Comandi:
 
 Generare la classe della versione attuale:
-php bin/doctrine-migrations.phar --db-configuration=config/migration-db.php --configuration=config/migrations.yml migration:generate 
+<code>php bin/doctrine-migrations.phar --db-configuration=config/migration-db.php --configuration=config/migrations.yml migration:generate</code>
 
 
 Controllare lo stato:
-php bin/doctrine-migrations.phar --db-configuration=config/migration-db.php --configuration=config/migrations.yml migration:status
+<code>php bin/doctrine-migrations.phar --db-configuration=config/migration-db.php --configuration=config/migrations.yml migration:status</code>
 
 
 Migrare alla nuova versione:
-php bin/doctrine-migrations.phar --db-configuration=config/migration-db.php --configuration=config/migrations.yml migration:migrate
+<code>php bin/doctrine-migrations.phar --db-configuration=config/migration-db.php --configuration=config/migrations.yml migration:migrate</code>
 
 
 Rollback alla versione precedente:
-php bin/doctrine-migrations.phar --db-configuration=config/migration-db.php --configuration=config/migrations.yml migration:migrate 0
+<code>php bin/doctrine-migrations.phar --db-configuration=config/migration-db.php --configuration=config/migrations.yml migration:migrate 0</code>
 
 
 Documentazione:
